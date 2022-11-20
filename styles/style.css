@@ -1,11 +1,97 @@
 body{
-    margin: 0%;
+    margin: 0;
+    font-family: "Robot",sans-serif;
+    color: white;
 }
-header{
+.content{
+    min-width: 100%;
+}
+.header__banner{
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: end;
+    font-size: 10px;
+}
+.header__banner__logo{
+    background-color:  #212529;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    font-size: 12px;
+    font-family: "robot",sans-serif;
+    padding: 0px 7.5px;
+}
+button{
+    margin-left: 20px;
+    font-family: Bebas Neue, Sans-serif;
+    font-size: 19.6px;
+}
+.content__pictures{
+    padding: 30px;
+    margin: 0;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.content__text{
+    text-align: center;
+    font-size: 25px;
+    font-family: Bebas Neue, Sans-serif;
+    color: black;
+}
+.content__miniatures{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.element{
+    text-align: center;
+    font-size: 16px;
+}
+footer{
     background-color: black;
 }
-p{
-    color: white;
-    text-align: right;
 
+h3{
+    color: white;
+}
+ul li{
+    color: white;
+    list-style:none ;
+}
+.footer__picture{
+    background-color: #212529;
+    text-align: center;
+    padding: 30px;  
+}
+.copyright{
+    background-color: #212529;
+    margin: 0;
+}
+h4{
+    text-align: center;
+    color: #d05557;
+    margin: 0;
+}
+.social-links-footer{
+    background-color: #212529;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    list-style: none;
 }
